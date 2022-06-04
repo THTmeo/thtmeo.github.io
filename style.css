@@ -1,0 +1,212 @@
+* {margin: 0; padding: 0;font-family: "Inter", sans-serif;}
+a {text-decoration: none;}
+
+nav {
+	height: 45px;
+	background-color: #E4C1B1;
+	width: 100%;
+	display: block;
+}
+
+nav .info {
+	height: 100%;
+	padding: 0 50px;
+}
+
+nav .info .info_detail {
+	width: 100%;
+	display: flex;
+	padding: 14px 0;
+}
+
+nav .info .info_detail .logo {
+	width: 54%;
+}
+
+nav .info .info_detail .logo .logo_detail {
+	margin-right: 25px;
+	color: white;
+}
+
+nav .info .info_detail .phonenumber {
+	width: 8%;
+}
+
+nav .info .info_detail .phonenumber .number{
+	margin-left: 10px;
+	color: black;
+	font-size: 13px;
+}
+
+nav .info .info_detail .email {
+	width: 12%;
+}
+
+nav .info .info_detail .email .email_detail{
+	color: black;
+	margin-left: 5px;
+	font-size: 13px;
+}
+
+
+nav .info .info_detail .address {
+	width: 11%;
+}
+
+nav .info .info_detail .address .address_detail{
+	margin-left: 5px;
+	font-size: 13px;
+}
+
+
+nav .info .info_detail .time {
+	width: 10%;
+}
+
+nav .info .info_detail .time .time_detail{	
+	margin-left: 5px;
+	font-size: 13px;
+}
+
+nav .info .info_detail .language {
+	width: 6%;
+	margin-left: 5px;
+	font-size: 13px;
+}
+
+/*header*/
+
+.header {
+	height: 90px;
+	position: relative;
+}
+
+.header .block_header {
+	height: 100%;
+	margin: 0 50px;
+	background-color: grey;
+	display: flex;
+}
+
+.header .block_header .trademark {
+	width: 20%;
+	padding-top: 30px;
+}
+
+.header .block_header .trademark .trademark_detail{
+	font-size: 24px;
+	letter-spacing: 3px;
+}
+
+
+.header .block_header .menu {
+	width: 60%;
+}
+
+.header .block_header .option {
+	width: 20%;
+	padding-top: 35px;
+	padding-left: 40%;
+	color: black;
+	font-size: 18px;
+}
+
+.header .block_header .option .search {
+	margin-left: 30px;
+	float: right;
+}
+
+.header .block_header .option .login {
+	margin-left: 30px;
+	float: right;
+}
+
+.header .block_header .option .heart {
+	margin-left: 30px;
+	float: right;
+}
+
+.header .block_header .option .cart {
+	margin-left: 30px;
+	float: right;
+}
+
+/*menu*/
+
+.menu {
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+.menu .menu_detail {
+	display: flex;
+	width: 100%;
+	padding: 6% 50%;
+}
+
+.menu .home {
+	width: 14%;
+	position: relative;
+}
+
+.menu .home .text_home {
+	
+}
+
+.menu .shop {
+	width: 14%;
+}
+
+.menu .shop .text_shop {
+	
+}
+
+.menu .headers {
+	width: 14%;
+}
+
+.menu .headers .text_headers {
+
+}
+
+.menu .blog {
+	width: 14%;
+}
+
+.menu .blog .text_blog {
+
+}
+
+.menu .pages {
+	width: 14%;
+}
+
+.menu .pages .text_pages {
+
+}
+
+.menu .mega {
+	width: 14%;
+}
+
+.menu .mega .text_mega {
+
+}
+
+.menu .contact {
+	width: 14%;
+}
+
+.menu .contact .text_contact {
+
+}
+
+.intro {
+	width: 50%;
+	height: 230px;
+	background-color: red;
+	position: absolute;
+	top: 80%;
+	margin: 0 21%;
+}
