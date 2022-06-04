@@ -1,212 +1,162 @@
-* {margin: 0; padding: 0;font-family: "Inter", sans-serif;}
-a {text-decoration: none;}
+a {
+	text-decoration: none;
+}
+
+/*.menu_text {
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZQjh3IpZfKCg85kMumDdFLFHkfHymtE7siQ&usqp=CAU);
+	background-size: cover;
+	color: red;
+	text-align: center;
+	padding: 80px;
+	margin: 0;
+}*/
+
+.banner img {
+	width: 100%;
+	height: 240px;
+}
 
 nav {
-	height: 45px;
-	background-color: #E4C1B1;
-	width: 100%;
+	background-color: #333;
+	overflow: hidden;
+}
+
+nav a {
+	color: white;
+	padding: 14px 20px;
+	text-decoration: none;
+	text-align: center;
 	display: block;
 }
 
-nav .info {
-	height: 100%;
-	padding: 0 50px;
+nav a {
+	float: left;
 }
 
-nav .info .info_detail {
-	width: 100%;
+nav a:hover {
+	background-color: white;
+	color: black;
+	transition: 0.3s;
+}
+
+.flex_container {
 	display: flex;
-	padding: 14px 0;
+	flex-wrap: nowrap;
 }
 
-nav .info .info_detail .logo {
-	width: 54%;
+.left_side {
+	flex: 30%;
+	padding: 10px 20px;
+	background-color: #f1f1f1;
 }
 
-nav .info .info_detail .logo .logo_detail {
-	margin-right: 25px;
+.right_side {
+	flex: 70%;
+	padding: 10px 20px;
+	background-color: #E2DEDE;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 10px 20px;
+}
+
+footer a {
 	color: white;
 }
 
-nav .info .info_detail .phonenumber {
-	width: 8%;
+.right_side table {
+	border: 1px;
 }
 
-nav .info .info_detail .phonenumber .number{
-	margin-left: 10px;
-	color: black;
-	font-size: 13px;
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
 }
 
-nav .info .info_detail .email {
-	width: 12%;
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
 }
 
-nav .info .info_detail .email .email_detail{
-	color: black;
-	margin-left: 5px;
-	font-size: 13px;
-}
+table tr:nth-child(even){background-color: #f2f2f2;}
 
+table tr:hover {background-color: #ddd;}
 
-nav .info .info_detail .address {
-	width: 11%;
-}
-
-nav .info .info_detail .address .address_detail{
-	margin-left: 5px;
-	font-size: 13px;
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
 }
 
 
-nav .info .info_detail .time {
-	width: 10%;
-}
-
-nav .info .info_detail .time .time_detail{	
-	margin-left: 5px;
-	font-size: 13px;
-}
-
-nav .info .info_detail .language {
-	width: 6%;
-	margin-left: 5px;
-	font-size: 13px;
-}
-
-/*header*/
-
-.header {
-	height: 90px;
-	position: relative;
-}
-
-.header .block_header {
-	height: 100%;
-	margin: 0 50px;
-	background-color: grey;
+.list_anime_container {
 	display: flex;
+	flex-wrap: wrap;
 }
 
-.header .block_header .trademark {
-	width: 20%;
-	padding-top: 30px;
-}
-
-.header .block_header .trademark .trademark_detail{
-	font-size: 24px;
-	letter-spacing: 3px;
-}
-
-
-.header .block_header .menu {
-	width: 60%;
-}
-
-.header .block_header .option {
-	width: 20%;
-	padding-top: 35px;
-	padding-left: 40%;
-	color: black;
-	font-size: 18px;
-}
-
-.header .block_header .option .search {
-	margin-left: 30px;
-	float: right;
-}
-
-.header .block_header .option .login {
-	margin-left: 30px;
-	float: right;
-}
-
-.header .block_header .option .heart {
-	margin-left: 30px;
-	float: right;
-}
-
-.header .block_header .option .cart {
-	margin-left: 30px;
-	float: right;
-}
-
-/*menu*/
-
-.menu {
-	width: 100%;
+.anime_item {
+	flex: 32%;
 	text-align: center;
-	position: relative;
+	padding-bottom: 3%;
+	margin-left: 1%;
 }
 
-.menu .menu_detail {
-	display: flex;
-	width: 100%;
-	padding: 6% 50%;
-}
-
-.menu .home {
-	width: 14%;
-	position: relative;
-}
-
-.menu .home .text_home {
-	
-}
-
-.menu .shop {
-	width: 14%;
-}
-
-.menu .shop .text_shop {
-	
-}
-
-.menu .headers {
-	width: 14%;
-}
-
-.menu .headers .text_headers {
-
-}
-
-.menu .blog {
-	width: 14%;
-}
-
-.menu .blog .text_blog {
-
-}
-
-.menu .pages {
-	width: 14%;
-}
-
-.menu .pages .text_pages {
-
-}
-
-.menu .mega {
-	width: 14%;
-}
-
-.menu .mega .text_mega {
-
-}
-
-.menu .contact {
-	width: 14%;
-}
-
-.menu .contact .text_contact {
-
-}
-
-.intro {
+.anime_image img {
 	width: 50%;
-	height: 230px;
-	background-color: red;
-	position: absolute;
-	top: 80%;
-	margin: 0 21%;
+	height: 1%;
+}
+
+#anime {
+	margin: 0;
+} 
+
+.anime_name {
+	font-size: 130%;
+	font-weight: bold;
+}
+
+@media(max-width :800px){
+	.flex_container {
+		flex-wrap: wrap;
+	}
+
+	.left_side {
+		width: 100%;
+	}
+
+	.right_side {
+		width: 100%;
+	}
+
+	.anime_item {
+		flex: 49%;
+	}
+}
+
+@media(max-width :400px){
+	.flex_container {
+		flex-wrap: wrap;
+	}
+
+	.left_side {
+		width: 100%;
+	}
+
+	.right_side {
+		width: 100%;
+	}
+
+	.anime_item {
+		flex: 99%;
+	}
 }
